@@ -1,0 +1,29 @@
+{
+  "name": "periculum-sdk",
+  "version": "0.0.1",
+  "description": "JavaScript (node.js) SDK for Periculum.io",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "git@github.com:igmrrf/periculum-sdk.git",
+  "author": "Igbiriki Francis Richard <francis.igbiriki@gmail.com>",
+  "scripts": {
+    "prepublishOnly": "rm -rf ./lib && tsc"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Periculum",
+    "SDK",
+    "Periculum.io"
+  ],
+  "files": [
+    "/lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "got": "^12.6.0"
+  }
+}
